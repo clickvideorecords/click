@@ -1,0 +1,8 @@
+{
+  "name": "CRM Click Videorecords",
+  "description": "Sistema CRM para Click Videorecords: control de clientes, prospectos, citas, sesiones de foto y video para bodas y XV años en Yucatán con sincronización en Google Drive.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

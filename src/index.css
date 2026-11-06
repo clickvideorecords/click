@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Manrope", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-terracotta: #C85A32;
+  --color-terracotta-hover: #B24B25;
+  --color-terracotta-dark: #8F3717;
+  --color-terracotta-light: #FAF0EB;
+  --color-charcoal: #181715;
+  --color-charcoal-card: #22201D;
+  --color-charcoal-border: #33302B;
+  --color-cream: #FBF9F5;
+  --color-cream-card: #FFFFFF;
+  --color-cream-subtle: #F4EFEA;
+  --color-warm-border: #E8E2D8;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D0C5;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C4B9AA;
+}
+
+/* Print styles for contracts and client summary */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
